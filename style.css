@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #efefeb;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  background-color:white;
+}
+
+textarea {
+  width: 95%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 15px;
+  resize:none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #286aee;
+  color: white ;
+  border: none;
+  cursor: pointer;
+  font-weight:bolder;
+}
+
+button:hover {
+  background: #288a38;
+}
+
+.note {
+  background: #fff3cd;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteBtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  min-width:20%;
+  max-width :20%;
+  margin:5px;
+}
